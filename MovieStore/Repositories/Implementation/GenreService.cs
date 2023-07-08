@@ -1,7 +1,7 @@
 ﻿using MovieStore.Models.Domain;
 using MovieStore.Repositories.Abstract;
 
-namespace MovieStoreMvc.Repositories.Implementation
+namespace MovieStore.Repositories.Implementation
 {
     public class GenreService : IGenre
     {

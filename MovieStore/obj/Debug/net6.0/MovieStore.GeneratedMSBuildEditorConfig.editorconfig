@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\AspProjects\MovieStore\MovieStore
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/AspProjects/MovieStore/MovieStore/Views/Genre/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AspProjects/MovieStore/MovieStore/Views/Genre/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AspProjects/MovieStore/MovieStore/Views/Genre/GenreList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcR2VucmVMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/AspProjects/MovieStore/MovieStore/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

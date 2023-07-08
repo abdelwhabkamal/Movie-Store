@@ -2,14 +2,16 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MovieStore.Models.Domain;
 using MovieStore.Repositories.Abstract;
-using MovieStoreMvc.Repositories.Implementation;
+using MovieStore.Repositories.Implementation;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IUserAuthentication, UserAuthentication>();
-
+builder.Services.AddScoped<IGenre, GenreService>();
+builder.Services.AddScoped<IFile, FileService>();
+//builder.Services.AddScoped<IMovieService, MovieService>();
 
 builder.Services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("conn")));
 

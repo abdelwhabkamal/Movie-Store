@@ -4,7 +4,7 @@ using MovieStore.Models.DTO;
 using MovieStore.Repositories.Abstract;
 using System.Security.Claims;
 
-namespace MovieStoreMvc.Repositories.Implementation
+namespace MovieStore.Repositories.Implementation
 {
     public class UserAuthentication : IUserAuthentication
     {
