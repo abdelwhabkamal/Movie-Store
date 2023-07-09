@@ -16,7 +16,7 @@ namespace MovieStore.Models.Domain
         public string? Cast { get; set; }
         [Required]
         public string? Director { get; set; }
-/*
+
         [NotMapped]
         public IFormFile? ImageFile { get; set; }
         [NotMapped]
@@ -29,7 +29,7 @@ namespace MovieStore.Models.Domain
 
         [NotMapped]
         public MultiSelectList? MultiGenreList { get; set; }
-*/
+
 
     }
 }

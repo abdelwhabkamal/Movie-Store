@@ -11,7 +11,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IUserAuthentication, UserAuthentication>();
 builder.Services.AddScoped<IGenre, GenreService>();
 builder.Services.AddScoped<IFile, FileService>();
-//builder.Services.AddScoped<IMovieService, MovieService>();
+builder.Services.AddScoped<IMovie, MovieService>();
 
 builder.Services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("conn")));
 
